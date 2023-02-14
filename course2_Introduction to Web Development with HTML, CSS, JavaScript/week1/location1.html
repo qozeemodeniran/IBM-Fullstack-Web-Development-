@@ -1,0 +1,64 @@
+<!DOCTYPE html>  
+<html>  
+<head>  
+<title>Javascript Geolocation API Demo</title>  
+<script>  
+    var output = document.getElementById("output");  
+    function getlocation() {  
+        if(navigator.geolocation){  
+            navigator.geolocation.getCurrentPosition(displayPosition)  
+          }  
+        else  
+        {  
+             alert("Your browser does not support Geolocation API.")  
+         }
+          }  
+       
+     function displayPosition(position){  
+       var output = "<br>Your current location details<br>" + "Latitude: " + position.coords.latitude + "<br>" + "Longitude: " +    position.coords.longitude;  
+       document.getElementById("output").innerHTML = output;
+       var mapurl = "https://www.google.com/maps/@" + position.coords.latitude + "," + position.coords.longitude + ",14z";
+       document.getElementById("mapurl").innerHTML =  "<a href='" + mapurl +"' target='_blank'> Click here to see your location on the map.</a>";
+
+     }  
+</script>  
+</head>  
+<body>
+<div align=center>
+
+<div style="font-family:sans-serif;background-color:white;width:50%;border:1px solid">  
+  
+  <h1>Find  Your Location</h1>
+  
+    HTML5 offers some cool features.<br> One of them is the geolocation API.<br> This allows anyone to easily find out their current location(lattitude and longitude).<br>
+  Try it out here.<br><br>  
+  
+<button style="background-color:skyblue;" onclick="getlocation()"><h2>Show my location</h2></button><br>
+<span id="output"></span><br><br>
+<span id="mapurl"></span><br><br>
+
+
+</div>
+
+</div>
+<a href="https://cf-courses-data.s3.us.cloud-object-storage.appdomain.cloud/IBMDeveloperSkillsNetwork-CD0101EN-SkillsNetwork/labs/demos/demo1-instructions.md.html">Back</a>
+</body>  
+
+<!-- 
+  This code is an HTML page with JavaScript that demonstrates how to use the Geolocation API in the browser to get the user's current location.
+
+Here's a breakdown of how the code works:
+
+The page includes an HTML button with an onclick attribute that triggers the getlocation() function when clicked.
+
+The getlocation() function checks if the browser supports the Geolocation API. If it does, the function calls the getCurrentPosition() method of the navigator.geolocation object to retrieve the user's current location. If the browser doesn't support the Geolocation API, an alert message is displayed.
+
+If the getCurrentPosition() method succeeds, it calls the displayPosition() function, passing it a position object that contains the latitude and longitude of the user's location.
+
+The displayPosition() function constructs an HTML string that displays the latitude and longitude of the user's location, and sets the innerHTML of a <span> element to that string. It also constructs a URL for Google Maps that includes the user's latitude and longitude, and sets the innerHTML of another <span> element to a link that opens that URL in a new tab.
+
+When the user clicks the "Show my location" button, the page displays the user's current location and a link to view it on Google Maps.
+
+Note that the HTML and CSS in this code are used to create a simple user interface for the geolocation demo. The JavaScript is the main focus, which uses the Geolocation API to retrieve the user's current location and display it in the UI.
+ -->
+</html> 
