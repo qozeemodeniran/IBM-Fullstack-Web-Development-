@@ -1,0 +1,1 @@
+SSH protocol - methoed for secure remote login from one computer to another.
