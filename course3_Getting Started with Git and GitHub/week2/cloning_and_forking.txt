@@ -1,0 +1,31 @@
+cloning - creates a copy of a repo on local machine
+forking - modifies or extends a project: takes a copy of github repo to use as the base of a new project
+
+git fetch - gets updates from remote repo to local
+git push - takes changes from local repo to remote
+git pull =  git fetch + git merge
+
+origin - refers to fork
+upstream - refers to original work (cloned or forked repo)
+
+git fetch upstream - grab upstream branches
+git merge upstream/master - merge changes into master branch
+
+Branches are used to isolate changes to code. When the changes are complete, they can be merged back into the main branch.
+
+Repositories can be cloned to make it possible to work locally, then sync changes back to the original.
+
+Repositories can be forked to be used as a base for a new project, or so that the developer can work independently.
+
+A Pull Request (PR) can be submitted to have your changes reviewed and merged.
+
+Large projects include people working in different roles:
+
+Developer – creates code
+
+Integrator – manages changes made by developers
+
+Repository Administrator – configures and maintains access to the repository
+
+PR - https://github.com/ibm-developer-skills-network/gkpbt-css-circle/pull/3676
+
