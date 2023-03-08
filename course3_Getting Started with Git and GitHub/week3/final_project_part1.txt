@@ -16,4 +16,6 @@ Task 8 - Forked Repository: https://github.com/qozeemodeniran/jbbmo-Introduction
 
 Task 9 - Fix Typo and Submit first PR: https://github.com/ibm-developer-skills-network/jbbmo-Introduction-to-Git-and-GitHub/pull/10802
 
-Task 10 - 
+Task 10 - Reverted changes made to footer: https://github.com/ibm-developer-skills-network/jbbmo-Introduction-to-Git-and-GitHub/pull/10803
+
+
