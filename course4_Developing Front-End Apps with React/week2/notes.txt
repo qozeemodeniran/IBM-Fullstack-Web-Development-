@@ -1,0 +1,93 @@
+React Components
+
+Introduction to States
+- allows changing data
+- it's an object that specifies different types od data
+- built-in state object stores props vaues belonging to the component.
+- change in state makes the component re-renders.
+
+Types of state
+- shared: shared by multiple Components. (e.g order app)
+- local: present only in single component which needs it. (e.g hiding and showing info)
+
+Props - short properties used to pass data between React Components.
+---------------------------------------------------------
+Phases of Components
+- mounting: creation. Four methoda are called in the order...
+    * constructor()
+    * getDerivedStateFromProps()
+    * render()
+    * componentDidMount()
+
+- updating: changing. five methods are called in the order...
+    * getDerivedStateFromProps()
+    * shouldComponentUpdate()
+    * render()
+    * getSnapshotBeforeUpdate()
+    * componentDidMount()
+
+- unmounting: removal. the componentWillMount() is called when a component is unmounted
+
+Passing data and states between Components: data can be passed betwen React components considering the relationships between React Components.
+Types of relationships
+* from parents to child using props
+* from child to parent using callback
+* between siblings (using redux)
+-----------------------------------
+Components lifecycle
+* Initialization - component is constructed with props and default state
+* Mounting - JSX is rendered
+    . constructor
+    . render
+    . react updates dom and refs
+    . Component DidMount
+* Updating - component is changed
+    . new props
+    . setState()
+    . forceUpdate()
+    .render
+    . react updates dom and refs
+    . Component DidUpdate
+* Unmounting - component is removed.
+    . ComponentWIllUnmount
+
+-------------------------------
+Connecting React to External Services
+* HTTP - get, post, update, delete
+* Promise (to make request asynchronous) server call
+
+Posting to external server
+* sending data with post
+
+--------------------------
+Testing React Components
+Testing - line by line review of how code will execute
+
+Advantages
+* prevent unexpected regression
+* allows focus on current task
+* allows modular construction of app
+* reduces need for manual verificiation
+
+Disadvantage
+* requires writing more code, debugging, and maintaining.
+causes integration rejection due to non-critical failures
+
+Approaches
+1.  render component trees in a simple test environment and assert their output
+2. run app in realistic browser to do end-2-end testing
+
+Phases of React component testing
+* arrange
+* act
+* assert
+
+React testing libraries/tools
+* Mocha - test runner
+* Chai - assertion library
+* Sinon - spies, stubs, mocks
+* Enzyme - render components
+
+Popular React tetsing libraries
+* Jest (combined power of Mocha, Chai, Sinon) - 
+* Tetsing libraries - set of helpers (without dependng on thier implementation detail)

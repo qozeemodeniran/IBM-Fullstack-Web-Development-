@@ -1,0 +1,21 @@
+Task 1 - Repository URL: https://github.com/qozeemodeniran/github-final-project
+
+Task 2 - Repository License: https://github.com/qozeemodeniran/github-final-project/blob/master/LICENSE
+
+Task 3 - Repository ReadMe.md: https://github.com/qozeemodeniran/github-final-project/blob/master/README.md
+
+Task 4 - Repository Code of Conduct: https://github.com/qozeemodeniran/github-final-project/blob/master/CODE_OF_CONDUCT.md
+
+Task 5 - Repository Contributing Guidelines: https://github.com/qozeemodeniran/github-final-project/blob/master/CODE_OF_CONDUCT.md
+
+Task 6 - Repository Script File: https://github.com/qozeemodeniran/github-final-project/blob/master/simple-interest.sh
+
+Task 7 - Added github username to script File
+
+Task 8 - Forked Repository: https://github.com/qozeemodeniran/jbbmo-Introduction-to-Git-and-GitHub
+
+Task 9 - Fix Typo and Submit first PR: https://github.com/ibm-developer-skills-network/jbbmo-Introduction-to-Git-and-GitHub/pull/10802
+
+Task 10 - Reverted changes made to footer: https://github.com/ibm-developer-skills-network/jbbmo-Introduction-to-Git-and-GitHub/pull/10803
+
+

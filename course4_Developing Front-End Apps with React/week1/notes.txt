@@ -1,0 +1,74 @@
+What is React? 
+- framework for building client-side dynamic web apps.
+- Javascript library for building UI's
+- special markup languages called JSX.
+
+Intro to FE frameworks and React
+- FE frameworks are used to create a dynamic client that can connect to the server.
+- made available through open source library
+- Angular, Vue and React.
+
+Angular
+- Open source from Google
+- based on html and JS
+- uses directives to make html dynamic
+
+Vue
+- open source
+- uses virtual DOM
+- lightweight and fast
+
+React
+- used for building client-side dynamic web apps
+- use data binding and virtual DOM
+
+JSX
+- resembles html
+- can be compiled and interpreted as JS by babel
+- embeded inside specail script tags
+
+Important Packages
+- react: components, states and props
+- reactDOM: glue between react and DOM
+- babel: compiles and interprete JSX
+
+Using FE JS frameworks (experts viewpoints)
+ 
+Introduction to ES6 (EcmaScript6)
+- Ecma: creates wide range of global info and comm. tech standards
+ 
+ JS ES6 new feature
+ let, const, arrow functions, promise, class
+
+ let and const
+ - let: restricts the scope of variables within a block where it is declared
+ - const: allows declaration of variables whose values cannot be changed.
+
+Arrow functions - allowed functions to be declared as variables. Can be passed as parameters for callbacks
+
+Promise: onejcts that rep the eventualcompletion of an asynchronous operations and its return value.
+
+Intro to TypeScript
+**All Javascript is TypeScript, but not all TypeScript is Javascript**
+In TypeScript, once a variable type is defined, ut cannot be changed. Variables are static in TypeScript.
+* JSX needs a compiler to translate the JSX into Javascript, and Babel is a popular compilare for JSX.
+
+Introduciton to JSX
+JSX - Javascript Syntax Extension of Javascript XML:
+- it is an extension of Javascript
+- creates UI components in react easily
+- produces react elements
+
+Introduciton To Components 
+Components are:
+- core building blocks fo React
+- pieces of the UI which can be broken and merged into a parent vomponent to form the final UI
+
+state - an object that describes the behavior of a component.
+
+React component can be stateful or stateless
+stateful - class type
+stateless - function type.
+
+Working with React component (props and event handling)
+

@@ -1,0 +1,13 @@
+Branches  - store all files in github
+master branch - stores deployable code
+new branch - created for planned change.
+
+merging brnch: for simple project...
+- start with common based
+- code is branched while changes are made when changes are made
+- both branches are undergoing changes
+- merge branches.
+
+Commit -saving new changes.
+
+PR - initiate the the merging of branches to capture changes.

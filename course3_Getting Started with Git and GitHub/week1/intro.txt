@@ -1,0 +1,34 @@
+DVCS - Distributed Version Control System: key enablers for social and collaborative coding.
+
+Git - Distributed Versioning System.
+Githb - git-based hosted version control platform
+Version Control System - helps to keep track of things to documents which make recovering easy and also enhances collaboration 
+Reoository - data structure for storing docs including app source code.
+
+
+Basic git commands:
+git init - start with new repo
+git add - movies changes from working directory to staging area
+git status -  allows us to see state of working directory and state snapshot of changes.
+git commit - takes staged snapshot and coomit them to the project.
+git reset - undo changes made to the files in working directory
+git log - enables browsing of previous changes made to a project
+git branch - enables us to create isolate environment withing repo to make changes.
+git checkout - let you see and change existing branches.
+git merge - lets you put everthing back together again
+
+try.github.io  - useful link for git cheat sheet
+
+-------------------------------------------------------
+
+A Distributed Version Control System (DVCS) keeps track of changes to code, regardless of where it is stored. This allows multiple users to work on the same codebase or repository, mirroring the codebase on their own computers if needed, while the distributed version control software helps manage synchronization amongst the various codebase mirrors.
+
+Repositories are storage structures that:
+
+Store the code
+
+Track issues and changes
+
+Enable you to collaborate with others
+
+Git is one of the most popular distributed version control systems. GitHub, GitLab and Bitbucket are examples of hosted version control systems.

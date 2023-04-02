@@ -1,0 +1,14 @@
+***************HOOKS*******************
+what are hooks? -   simpler way to encapsulate stateful behavior and side effects in UIs.
+- introdduce in feb 2019
+- better sructure and clearer code.
+- regular js functions
+- enables use of context or state.
+- can be used without classes
+- allows to hook into function components.
+
+why hooks? 
+- solved the wrapper complexity, unimaginable size of components, and confusing classes problems caused by class components.
+- enables fxn components to access state and other react fxns
+- helps create simpler code (without classes)
+- can be customized.  

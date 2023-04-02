@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Qozeem Odeniran - Portfolio</title>
+    <link rel="stylesheet" href="./style.css"/>
+    <script src="./script.js"></script>
+  </head>
+  <body>
+    <!-- Navigation Bar -->
+    <nav>
+      <div id="home">
+        <div class="profile_name">
+          Qozeem Odeniran
+          <div class="contact_info">
+            <img src="html_finalprojimages/envelope.png" alt="https://icons8.com/icon/124377/circled-envelope"/>
+          jdoe@jeemail.com
+        </div>
+        <div style="clear:both;"></div>
+        <div class="contact_info">
+          <img src="html_finalprojimages/phone.png" alt="https://icons8.com/icon/124377/circled-envelope"/>
+          +13456764598
+
+        </div>
+        </div>
+        <div class="topdiv">
+          <a class="topmenu" href="#about-me">About Me</a>
+          <!-- Add the links for Skills, Projects and Recommendation here -->
+          <a class="topmenu" href="#skills">Skills</a>
+          <a class="topmenu" href="#projects">Projects</a>
+          <a class="topmenu" href="#recommendations">Recommendations</a>
+        </div>
+      </div>    
+    </nav>
+
+    <!-- About Me -->
+    <section id="about-me" class="container">
+      <div>
+        <img src="https://res.cloudinary.com/lastborn/image/upload/v1672109569/yellow_fwfsdd.gif" class="profile_image"/>
+      </div>
+
+      <div>
+          <h1>
+            Hi, I'm Qozeem Odeniran!<img src="https://twemoji.maxcdn.com/2/72x72/1f44b.png" width="60px" alt=""/>
+          </h1>
+          <p>
+            I am known for my passion for building great products, out of the box thinking, quick wit, ability to learn anything quickly, being a good team player and an excellent listener, my knack for high quality code that is scalable and testable, clean architecture and my versatility which helps me adapt to almost any role.
+          </p>
+      </div>
+    </section>
+              
+    <!-- Skills -->
+    <section id="skills">
+      <h2>Skills</h2>
+      <div style="clear:both;"></div>
+
+      <div class="all_skills">
+        <div class="skill">
+          <img src="html_finalprojimages/html5.png"/>
+          <h6>HTML</h6>
+          <p>2 years experience</p>
+        </div>  
+
+        <div class="skill">
+          <img src="html_finalprojimages/js.jpeg"/>
+          <h6>JavaScript</h6>
+          <p>3 years experience</p>
+        </div>  
+
+        <!-- Add more skills here -->
+        <div class="skill">
+            <img src="https://res.cloudinary.com/lastborn/image/upload/v1672110158/react_jnf68m.png"/>
+            <h6>React.js</h6>
+            <p>1 years experience</p>
+        </div> 
+
+        <div class="skill">
+            <img src="https://res.cloudinary.com/lastborn/image/upload/v1672110169/node_gwotau.jpg"/>
+            <h6>Node.js</h6>
+            <p>1 years experience</p>
+          </div> 
+      </div>
+    </section>
+          
+    <!-- Projects -->
+    <section class="projects" id="projects">
+      <h2>
+        Projects
+      </h2>
+      <div style="clear:both;"></div>
+
+        <div id="projects-container" class="projects-container">
+          <div class="project-card">
+            <h3>Omega Galleon</h3>
+            <ul>
+              <li>Omega Galleon is a charitable organisation that works to prevent and reduce poverty in Black, Asian and Minority Ethnic Communities (BAME) as well as impact young people through leadership trainings and empowerment.
+                Created the and consumed the APIs with Laravel and Nuxt JS respectively.</li>
+            </ul>
+          </div>
+          <hr>
+          <div class="project-card">
+            <h3>Calculator</h3>
+            <ul>
+              <li>This is a simple calculator which performs the most common arithmetic operations. It has cool design and buttons are arranged nicely.
+                I developed this app using Java.</li>
+            </ul>
+          </div>
+          <hr>
+          <div class="project-card">
+            <h3>Color Recognizer</h3>
+            <ul>
+              <li>This is a simple color-detector-app I developed for identifying color, because I really love to know the actaul name of colors. It allows the user to perform a click on any part of the test-image and then the name of the color(s) that made up that part is displayed in RGB form as seen in the scrrenshot.
+                I developed this app is using Python.</li>
+            </ul>
+          </div>
+    </div>
+    </section>
+    <div style="clear:both;"></div>
+
+    <!-- Recommendations -->
+    <section id="recommendations">
+      <h2>Recommendations</h2>
+      <div style="clear:both;"></div>
+      <div class="all_recommendations" id="all_recommendations">
+        <div class="recommendation">
+          <span>&#8220;</span>
+          In my current role as a PHP Developer, I am responsible for planning, designing, implementing. I am also responsible for working with a team consisting of infrastructure Engineers, QA Engineers to build, maintain, scale systems and convert Monolithic systems to distributed systems to handle the load from users.
+          <span>&#8221;</span>
+        </div>
+        <div class="recommendation">
+          <span>&#8220;</span>
+          Experienced FullStack Engineer who is skilled in System Design & Architecture, Backend Engineering, Frontend Engineering, Mobile apps and DevOps. I have written software from the ground up, worked in teams to build amazing products, optimized workflows to increase productivity.
+          <span>&#8221;</span>
+        </div>
+        <div class="recommendation">
+          <span>&#8220;</span>
+          I am known for my passion for building great products, out of the box thinking, quick wit, ability to learn anything quickly, being a good team player and an excellent listener, clean architecture and my versatility which helps me adapt to almost any role.
+          <span>&#8221;</span>
+        </div>
+      </div>
+    </section>
+
+    <!-- Recommendation Form -->
+    <section id="contact">
+      <div class="flex_center">
+        <fieldset>
+          <legend class="introduction">Leave a Recommendation</legend>          
+          <input type="text" placeholder="Name (Optional)"> <br/>
+          <textarea id="new_recommendation" cols="500" rows="10" placeholder="Message"></textarea>
+          <div class="flex_center">
+            <button id="recommend_btn" onclick="addRecommendation()">Submit</button>
+          </div>
+        </fieldset>
+      </div>
+    </section>
+
+    <div class="iconbutton">
+      <a href="#home">
+        <!--Add the code here for the logo to appear and the icon to be actionable-->
+        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="white" width="63px">
+            <path stroke-linecap="round" stroke-linejoin="round" d="M15 11.25l-3-3m0 0l-3 3m3-3v7.5M21 12a9 9 0 11-18 0 9 9 0 0118 0z" />
+          </svg>
+      </a>
+    </div>
+
+    <div class="popup" id="popup" class="flex_center">
+      <img src="html_finalprojimages/checkmark--outline.svg"/>
+      <h3>Thank you! Your recommendation means a lot to us.</h3>
+      <button onclick="showPopup(false)">Ok</button>
+    </div>
+  </body>
+</html>
