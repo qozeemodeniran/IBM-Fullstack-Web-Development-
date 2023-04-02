@@ -12,3 +12,82 @@ why hooks?
 - enables fxn components to access state and other react fxns
 - helps create simpler code (without classes)
 - can be customized.  
+
+Advantages of using hook
+- readability
+- lessr code
+- optimized component
+- writing functional component with states
+- easy writing of compex components
+- easy handling of logics and events in functional component
+- performance boost with functional component
+
+Best practises for using hooks
+- only called from inside react function components
+- only called at top level of a component
+- cannot be conditional
+- requires node 6 or above.
+- requires npm 5.2 or above
+- uses create-react-app tool from runnong react app.
+
+standard hooks
+- useState: adds state to a function
+- useEffect: manages side effects
+- useContext: manages context changes
+- useReducer: manages redux state and changes.
+
+custom react hook
+- allows adding special unique functionality to react application.
+- names with 'use' prefix
+- composed of one or multiple hooks
+- reusable, can be broken into smaller hook.
+- testable.
+
+********************************FORMS***********************************
+what are forms?
+- enables users interact witht the webpage
+- handles data using components
+- stores data in component state.
+- uses event handlers to control changes and to update the state of a variable
+
+handling form elements
+- form elements maintain their own state in html
+- form elements are kept in state property of components in react.
+
+form validation
+- get form values
+- manage form state
+- validate form on the fly.
+- show validation messages.
+
+types of input
+1. uncontrolled: browser handles most of the form elements and collect data via react's change events.
+    - dropped using a render function.
+    - browser handles for elements
+    - manages own's values in input's DOM node.
+    - updates elements when input value changes
+    - uses Ref function to get fomr values form DOM
+
+2. controlled: use react to fully controll the elements by setting and updating input value directly.
+    - code is written to manage values explicitly.
+    - create state to hold, update and display value.
+    - uses functions to govern the passing of data
+    - better control over fomr elements and data
+    - props take current value and notifies changes.
+    - changes are controlled by parent component
+
+react hook form
+- for creating web forms
+- reduces codes
+- uses ref function to control forms inputs
+- installed using 'install react-hook-form'
+
+Advantages of using react hook form
+- reduces numbers of re-renders
+- zero dependencies (tiny size)
+- intuitive API (uses constraint-based validation)
+- smooth integration with UI libraries
+- mounts components faster to the page 'cos of less overhead.
+
+*********************REDUX***********************
+
